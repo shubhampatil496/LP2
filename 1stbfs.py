@@ -11,7 +11,7 @@ def bfs_recursive(graph, queue, visited):
             queue.append(neighbour)
     bfs_recursive(graph, queue, visited)
 
-# User input
+# user input 
 graph = {}
 n = int(input("Enter number of edges: "))
 for _ in range(n):
